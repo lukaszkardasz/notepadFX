@@ -2,8 +2,13 @@ package pl.n2god.controller;
 
 
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.TextArea;
 
-public class MainPaneController {
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class MainPaneController implements Initializable {
 
     @FXML
     private ContentPaneController contentPaneController;
@@ -11,9 +16,9 @@ public class MainPaneController {
     @FXML
     private ControlPaneController controlPaneController;
 
-    public void initialize(){
-        controlPaneController.getClearButton().setOnAction(actionEvent ->
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        controlPaneController.getClearButton().setOnAction(x ->
                 contentPaneController.getMainTextArea().clear());
     }
-
 }

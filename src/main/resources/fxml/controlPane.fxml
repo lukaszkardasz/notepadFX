@@ -3,7 +3,10 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.HBox?>
 
-<HBox alignment="CENTER" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.n2god.controller.ControlPaneController">
+<HBox alignment="CENTER"
+      xmlns="http://javafx.com/javafx/11.0.1"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="pl.n2god.controller.ControlPaneController">
    <children>
       <Button id="clear-button" fx:id="clearButton" prefWidth="300.0" mnemonicParsing="false" text="" />
    </children>
