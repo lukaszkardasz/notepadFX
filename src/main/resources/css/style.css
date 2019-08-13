@@ -1,0 +1,19 @@
+#main-text-area,
+#main-text-area .scroll-pane,
+#main-text-area .scroll-pane .viewport .content{
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 13px;
+    -fx-font-style: italic;
+    -fx-background-color: #dddddd;
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-background-image: url('../img/button-345.png');
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+.button:hover {
+    -fx-opacity: 0.5;
+}
